@@ -1,0 +1,32 @@
+# Ignore CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Ignore other dotfiles
+.cache
+.codelite
+.ninja_deps
+.ninja_log
+.git
+
+# Executable
+Example
+
+# Ignore Ninja build files
+build.ninja
+
+# Ignore IDE project/workspace files
+*.project
+*.workspace
+compile_commands.json
+clike
+
+# Ignore compiled object files, executables, and logs (optional, depending on your environment)
+buildfiles/uigen_*.h
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.log
