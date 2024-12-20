@@ -10,11 +10,13 @@ cmake_install.cmake
 .ninja_log
 .git
 
-# Executable
+# Executable (in linux it have name Lib)
 Example
+Lib
 
-# Ignore Ninja build files
+# Ignore build files
 build.ninja
+Makefile
 
 # Ignore IDE project/workspace files
 *.project
@@ -23,7 +25,6 @@ compile_commands.json
 clike
 
 # Ignore compiled object files, executables, and logs (optional, depending on your environment)
-buildfiles/uigen_*.h
 *.o
 *.a
 *.so

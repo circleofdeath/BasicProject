@@ -1,7 +1,7 @@
 #!/bin/sh
 
-ninja
+make
 mkdir -p assets
-mv ./Example ./assets/Example
+mv ./Example ./assets/Lib
 cd ./assets
-./Example
+./Example.sh
